@@ -1,0 +1,67 @@
+site_name: OpenShift Introduction on IBM Z and LinuxONE
+
+repo_url: https://github.com/ibm-wsc/openshift-intro
+edit_uri: ''
+
+nav:
+    - Home: index.md
+    - Access: access.md
+    - Overview: overview.md
+    - Administrator Perspective: administrator.md
+    - Developer Perspective: developer.md
+    - Command Line Interface (cli): cli.md
+    - Persistent Storage with OpenShift Data Foundation (ODF): openshift_data_foundation.md
+    - Metering, Monitoring, and Alerts: monitoring.md
+    - Closing: finish.md
+    - Glossary: glossary.md
+    - Miscellaneous:
+        - Mkdocs: mkdocs/index.md
+
+theme:
+  features:
+    - header.autohide
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - navigation.tracking
+    - navigation.footer
+    - search.share
+    - navigation.indexes
+    - announce.dismiss
+    - content.tabs.link
+    - content.code.copy
+    - content.action.edit
+    - content.action.view
+  name: material
+  favicon: images/ocp.png
+  logo: images/ocp.png
+  palette:
+    scheme: preference
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/ibm-wsc/openshift-intro
+markdown_extensions:
+  - admonition
+  - codehilite
+  - footnotes
+  - pymdownx.arithmatex
+  - pymdownx.betterem:
+      smart_enable: underscore
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.magiclink
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tabbed
+  - pymdownx.tilde
+  - attr_list
+  - toc:
+      permalink: true

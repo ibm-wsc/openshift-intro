@@ -20,10 +20,10 @@ If you run into an issue where your mouse pointer is not visible, try to open th
 Please do not log off or reboot the Virtual Machine, as that will disconnect the VPN.
 
 ## Accessing OpenShift web console
-1. Go to the OpenShift Cluster here: <https://console-openshift-console.apps.atsocppa.dmz/dashboards>
+1. Go to the OpenShift Cluster [here](https://console-openshift-console.apps.atsocppa.dmz/dashboards){target="_blank" rel="noopener"}
 2. Use your credentials in the table below. 
 
-## Accessing OpenShift CLI
+## Connecting to OpenShift via the CLI
 To access OpenShift via the CLI, you must first `ssh` to one of our WSC Linux guests from the Windows Virtual Machine.
 
 ```text
@@ -46,7 +46,7 @@ If you cannot access the webpage for any of the platforms above, check that the 
 
 You can find your Environment Number on the TechZone Workshop page in the 'Your Environment' section.
 
-![environment-number](/images/environment-number.png)
+![environment-number](images/environment-number.png)
 
 | Environment Number | NN | Username | Password |
 |-----|----|--------------------|--------------------|
